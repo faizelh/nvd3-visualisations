@@ -1,4 +1,3 @@
-
 charts = new Array();
 bootup = 1;
 
@@ -115,7 +114,7 @@ function chartSelector(id, data, type, options) {
 		discreteBar(id, data, options);
 	else if (type == 'horizontalmultibar')
 		horizontalMultiBar(id, data, options);
-	else if (type == 'pie', options)
+	else if (type == 'pie')
 		Pie(id, data, options);
 	else if (type == 'donut')
 		Donut(id, data, options); 
